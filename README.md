@@ -50,7 +50,7 @@ We recommend to follow the next step by step process in order to avoid adding th
 
 This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
 
-We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
+We'll try to maintain this project as simple as possible, but Pull Requests are welcome!
 
 ## License
 
@@ -63,3 +63,4 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-gitignore]: .gitignore
 [link-build-gradle]: build.gradle.kts
 [link-author]: https://github.com/CodelyTV
+[link-contributors]: https://github.com/CodelyTV/cqrs-ddd-scala-example/graphs/contributors
