@@ -30,6 +30,7 @@ We recommend to follow the next step by step process in order to avoid adding th
 6. Run all the checks: `./gradlew check`. This will do some checks that you can perform with isolated commands:
     1. [Klint](https://ktlint.github.io/) using [Spotless](https://github.com/diffplug/spotless): `./gradlew spotlessCheck`. If you want to fix style issues automatically: `./gradlew spotlessApply`.
     2. [Kotlin test](https://kotlinlang.org/api/latest/kotlin.test/): `./gradlew test`.
+7. To just run the project execute: `./gradlew run`
 7. Start coding!
 
 ## Helpful resources

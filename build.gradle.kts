@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm") version "1.5.21"
     id("com.diffplug.spotless") version "5.7.0"
+    application
 }
 
 group = "com.codely"
@@ -14,11 +15,16 @@ repositories {
 }
 
 dependencies {
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.diffplug.spotless:spotless-plugin-gradle:5.7.0")
 
-    testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+}
+application {
+    mainClass.set("com.codely.demo.CodelyberKt")
 }
 
 tasks.withType<KotlinCompile> {
