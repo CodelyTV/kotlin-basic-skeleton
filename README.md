@@ -63,4 +63,4 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-gitignore]: .gitignore
 [link-build-gradle]: build.gradle.kts
 [link-author]: https://github.com/CodelyTV
-[link-contributors]: https://github.com/CodelyTV/cqrs-ddd-scala-example/graphs/contributors
+[link-contributors]: https://github.com/CodelyTV/kotlin-basic-skeleton/graphs/contributors
