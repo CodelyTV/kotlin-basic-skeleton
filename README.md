@@ -17,7 +17,7 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 ## How To Start
 
-You just need to manually clone [this repo](https://github.com/CodelyTV/kotlin-basic-skeleton)
+You could manually clone [this repo](https://github.com/CodelyTV/kotlin-basic-skeleton) or just us it as a template
 
 ### Cloning the repository
 
