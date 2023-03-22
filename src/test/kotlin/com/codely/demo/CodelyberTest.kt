@@ -1,7 +1,7 @@
 package com.codely.demo
 
-import kotlin.test.assertEquals
 import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
 class CodelyberTest {
     @Test
