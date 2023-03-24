@@ -4,6 +4,6 @@ class Codelyber {
     fun greet() = "Welcome to kotlin skeleton!!!"
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(Codelyber().greet())
 }
