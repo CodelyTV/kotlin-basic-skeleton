@@ -42,8 +42,8 @@ spotless {
         ktlint()
             .userData(
                 mapOf(
-                    "insert_final_newline" to "true"
-                )
+                    "insert_final_newline" to "true",
+                ),
             )
     }
     kotlinGradle {
